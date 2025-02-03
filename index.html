@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
   <h2 data-testid="gameInstructions">Guess the Color!</h2> 
     </div>
   <div>
-  <p>Score: <span class="score">0</span></p>
+  <p>Score: <span class="score" data-testid="score">0</span></p>
 </div>
   </div>
   <div class="box">
@@ -31,7 +31,7 @@
      <p class="box-6 option" data-testid="colorOption"></p>
   </div>
   <p class="message" data-testid="gameStatus"></p>
-  <button class="reset">New Game</button>
+  <button class="reset" data-testid="newGameButton">New Game</button>
 </div>
 
 <script src="Script.js"></script>
